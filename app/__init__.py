@@ -5,6 +5,7 @@ from dotenv import load_dotenv
 def create_app():
     load_dotenv()
     app = Flask(__name__)
+    app.secret_key = os.getenv("SECRET_KEY", "defaultsecret")
     app.config["UPLOAD_FOLDER"] = "app/static/uploads"
 
     from .routes.upload import upload_bp
