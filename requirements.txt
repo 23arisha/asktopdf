@@ -6,3 +6,4 @@ langchain-community
 huggingface-hub
 sentence-transformers
 pypdf
+gunicorn
