@@ -12,6 +12,3 @@ app/static/uploads/
 # Environment secrets
 .env
 
-# Vercel log or backup folders
-.vercel/
-.vercel
