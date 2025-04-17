@@ -1,0 +1,17 @@
+__pycache__/
+
+# Virtual environments
+pdfenv/
+
+# Hugging Face model cache
+hf_model_cache/
+
+# Temp uploads
+app/static/uploads/
+
+# Environment secrets
+.env
+
+# Vercel log or backup folders
+.vercel/
+.vercel
