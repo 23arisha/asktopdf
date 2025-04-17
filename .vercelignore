@@ -1,13 +1,6 @@
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
-*.log
-*.sqlite3
-*.db
 
-# Exclude virtual environments
-venv/
+# Virtual environments
 pdfenv/
 
 # Hugging Face model cache
@@ -21,3 +14,4 @@ app/static/uploads/
 
 # Vercel log or backup folders
 .vercel/
+.vercel
