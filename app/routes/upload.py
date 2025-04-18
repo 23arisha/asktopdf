@@ -5,7 +5,7 @@ from flask import Blueprint, render_template, request, redirect, session, flash,
 from werkzeug.utils import secure_filename
 from app.services.pdf_processor import process_pdf
 
-upload_bp = Blueprint("upload", __name__)
+upload_bp = Blueprint("upload", __name__, url_prefix="/")
 
 UPLOAD_FOLDER = "app/static/uploads"
 VECTORSTORE_FOLDER = "app/static/vectorstores"
