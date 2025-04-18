@@ -9,3 +9,4 @@ langchain-huggingface
 pypdf
 gunicorn
 faiss-cpu
+huggingface_hub[hf_xet]
