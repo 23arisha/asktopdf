@@ -5,6 +5,7 @@ langchain-groq
 langchain-community
 huggingface-hub
 sentence-transformers
+langchain-huggingface
 pypdf
 gunicorn
 faiss-cpu
